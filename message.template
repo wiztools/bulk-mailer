@@ -1,0 +1,11 @@
+Hello $USERNAME$,
+
+This is the trial message sent by the bMailer program. View
+the documentation at:
+http://wiztools.googlecode.com/
+Check out the command line options:
+$ ./bmail.pl --help
+
+-Subhash.
+mailto:subhash@somedomain.com
+
