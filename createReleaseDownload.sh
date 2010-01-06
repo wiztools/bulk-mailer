@@ -9,8 +9,7 @@ VERSION=$1
 DIR_NAME=bMail-${VERSION}
 
 mkdir /tmp/${DIR_NAME}
-cp * /tmp/${DIR_NAME}
-rm -rf /tmp/${DIR_NAME}/createReleaseDownload.sh # Remove this script
+cp src/* /tmp/${DIR_NAME}
 cd /tmp
 tar -czf ${DIR_NAME}.tgz ${DIR_NAME}
 echo Created /tmp/${DIR_NAME}.tgz
