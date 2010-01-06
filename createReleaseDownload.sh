@@ -6,7 +6,7 @@ if [ -z "$1" ]; then
 fi
 
 VERSION=$1
-DIR_NAME=bMail-${VERSION}
+DIR_NAME=bMailer-${VERSION}
 
 mkdir /tmp/${DIR_NAME}
 cp src/* /tmp/${DIR_NAME}

@@ -4,7 +4,7 @@ Installation Instruction For bMailer
 Extract the files from the tar.gz archive into a temporary
 folder:
 
-$ tar -zxvf bMailer.tar.gz ~/
+$ tar -zxvf bMailer-VERSION.tgz ~/
 
 The above command will create a directory bMailer in your home
 directory. Go into that directory make the file bmail.pl
